@@ -1,6 +1,6 @@
 # npmtest-observatory
 
-#### test coverage for  [observatory (v1.0.0)](https://github.com/dylang/observatory)  [![npm package](https://img.shields.io/npm/v/npmtest-observatory.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-observatory) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-observatory.svg)](https://travis-ci.org/npmtest/node-npmtest-observatory)
+#### basic test coverage for  [observatory (v1.0.0)](https://github.com/dylang/observatory)  [![npm package](https://img.shields.io/npm/v/npmtest-observatory.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-observatory) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-observatory.svg)](https://travis-ci.org/npmtest/node-npmtest-observatory)
 
 #### Beautiful UI for showing tasks running on the command line.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-observatory/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-observatory/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-observatory/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-observatory/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-observatory/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-observatory/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-observatory/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-observatory/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-observatory/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-observatory/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-observatory/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-observatory/build/coverage.html/index.html)
 
@@ -85,7 +85,8 @@
     "scripts": {
         "test": "mocha && jshint lib test"
     },
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "bin": {}
 }
 ```
 
